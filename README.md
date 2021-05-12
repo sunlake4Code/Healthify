@@ -4,6 +4,9 @@ A tool that helps you in improving your health by saving you from long hours of 
 ### How it works ?
 When the tool runs it opens a window popped-up on your desktop at stipulated time intervals and hints you by providing tool-tips that helps you keeps your health UP and running by reducing your screen-time from your laptop and suggests you to do timely physical exercises.
 
+### How Tool Looks when it runs ? 
+<img width="696" alt="drink-water-img" src="https://user-images.githubusercontent.com/84083915/118011381-9787d200-b36d-11eb-959c-b3f23f6d9d8a.png">
+
 ### Currently Supported Health-tips 
 1) Drink water timely for every one hour
 2) Always Blink your eyes timely and watch away from screen every 10 mins 
