@@ -1,0 +1,68 @@
+{
+   "05" : {
+            "name" : "eyes.jpg",
+            "msg" : "\n\nBlink your eyes !! \nLook away from Screen for 10 seconds"
+          },
+
+   "10" : {
+            "name" : "eyes.jpg",
+            "msg" : "\n\nBlink your eyes !! \nLook away from Screen for 10 seconds"
+          },
+
+   "15" : {
+            "name" : "stretching_1.jpg",
+            "msg" : "\n\nNow do a bit of Stretching !! "
+          },
+
+   "20" : {
+            "name" : "eyes.jpg",
+            "msg" : "\n\nBlink your eyes !! \nLook away from Screen for 10 seconds"
+          },
+
+   "25" : {
+            "name" : "stretching_2.jpg",
+            "msg" : "\n\nNow do a bit of Stretching !! "
+          },
+
+   "30" : {
+            "name" : "walking.jpg",
+            "msg" : "\n\nGet Up from Chair and Walk !! \nFor 2mins from now"
+          },
+
+   "35" : {
+            "name" : "stretching_3.jpg",
+            "msg" : "\n\nNow do a bit of Stretching !! "
+          },
+
+   "40" : {
+            "name" : "eyes.jpg",
+            "msg" : "\n\nBlink your eyes !! \nLook away from Screen for 10 seconds"
+          },
+
+   "45" : {
+            "name" : "stretching_4.jpg",
+            "msg" : "\n\nNow do a bit of Stretching !! "
+          },
+
+   "50" : {
+            "name" : "eyes.jpg",
+            "msg" : "\n\nBlink your eyes !! \nLook away from Screen for 10 seconds"
+          },
+
+   "55" : {
+            "name" : "eyes.jpg",
+            "msg" : "\n\nBlink your eyes !! \nLook away from Screen for 10 seconds"
+          },
+
+   "00" : {
+            "name" : "drinking_water.jpg",
+            "msg" : "\n\nIt's time to Drink some water !! \nTake some 300ml now"
+          }
+
+
+
+
+
+
+
+}
