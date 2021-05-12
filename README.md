@@ -7,7 +7,7 @@ When the tool runs it opens a window popped-up on your desktop at stipulated tim
 ### How Tool Looks when it runs ? 
 <img width="696" alt="drink-water-img" src="https://user-images.githubusercontent.com/84083915/118011381-9787d200-b36d-11eb-959c-b3f23f6d9d8a.png">
 <br><br>
-<img width="701" alt="blink-eyes-img" src="https://user-images.githubusercontent.com/84083915/118012915-3103b380-b36f-11eb-9d68-24503781f87f.png">
+<img width="699" alt="Screenshot 2021-05-12 at 10 25 54 PM" src="https://user-images.githubusercontent.com/84083915/118014738-25b18780-b371-11eb-9cdc-6abe25d15807.png">
 
 ### Currently Supported Health-tips 
 1) Drink water timely for every one hour
