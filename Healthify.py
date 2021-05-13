@@ -39,9 +39,17 @@ tool_data_path = os.path.join(tool_path, 'data')
 # ----------------------
 
 def healthify():
-    print("\n\nHealthify - Initiated")  
-    tc_dict = json.loads(open(os.path.join(tool_data_path, 'app_controls.JSON')).read())
-    while True: 
+    day, month, date, time, year = ctime().split()
+    print("\n\nHealthify - Initiated at %s " % time)
+    ac_dict = json.loads(open(os.path.join(tool_data_path, 'app_controls.JSON')).read())
+    # Invoking as a process
+    name = "welcome.jpg"
+    msg = "\n\n\tNamste _/\_\nOn this window, you will receive Health-tips\non configured time intervals"
+    m_process = multiprocessing.Process(target=run_app, args=(name, msg))
+    m_process.start()
+    sleep(int(ac_dict['auto_close_counter']))
+    m_process.terminate()
+    while True:
         # Reading Health Tip Controls - data
         print("\t- Reading Health-Tip-Controls Data")
         htc_dict = json.loads(open(os.path.join(tool_data_path, 'health_tip_controls.JSON')).read())
@@ -58,7 +66,7 @@ def healthify():
             # Invoking as a process
             m_process = multiprocessing.Process(target=run_app, args=(name, msg))
             m_process.start()
-            sleep(int(tc_dict['auto_close_counter']))
+            sleep(int(ac_dict['auto_close_counter']))
             m_process.terminate()
         else:
             print("\t- Criteria not met for Invoking UI")
