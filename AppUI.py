@@ -99,7 +99,7 @@ def HealthifyUI(tc_dict, img_name, img_msg):
     clear(mw)
     # Adding Image
     AddImageAndTextToUI(mw, img_name, img_msg, 230, 200, cmd=None, img_type='Label')
-    tk.Label(mw, text="\n\nThis application will auto-close in another %s seconds" % counter, justify='center', padx=20, bg='white', fg='red').pack()
+    tk.Label(mw, text="\n\nThis window will auto-close in another %s seconds" % counter, justify='center', padx=20, bg='white', fg='red').pack()
     auto_close_counter = int(counter)
     button_label = tk.StringVar()
     button_label.set(auto_close_counter)
