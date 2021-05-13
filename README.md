@@ -20,8 +20,8 @@ It is assumed that, user of this tool is aware of how to install Python interpre
 Also how to download/install 3rd party modules using pip -script. 
 
 ###  Prerequisites before using this tool.
-- Download & Install Python3 from https://www.python.org/downloads/  - any latest version 
-3rd Party Module : PIL  ( Install this module using pip3 - pip3 install Pillow )
+- Download & Install Python3 from https://www.python.org/downloads/, any latest version 
+- Download & Install 3rd Party Module : PIL  ( Install this module using pip3 - pip3 install Pillow )
 
 ### How to run this tool ?
 1) Download this code-base
